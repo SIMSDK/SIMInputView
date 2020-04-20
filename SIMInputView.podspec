@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZacharyIcoder/SIMInputView'
+  s.homepage         = 'https://github.com/SIMSDK/SIMInputView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZacharyIcoder' => '811528603@qq.com' }
-  s.source           = { :git => 'https://github.com/ZacharyIcoder/SIMInputView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SIMSDK/SIMInputView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SIMInputView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SIMInputView' => ['SIMInputView/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'SIMInputView' => ['SIMInputView/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

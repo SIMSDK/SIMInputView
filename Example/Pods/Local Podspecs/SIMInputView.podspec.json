@@ -1,0 +1,27 @@
+{
+  "name": "SIMInputView",
+  "version": "0.1.0",
+  "summary": "A short description of SIMInputView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ZacharyIcoder/SIMInputView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZacharyIcoder": "811528603@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ZacharyIcoder/SIMInputView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SIMInputView/Classes/**/*",
+  "resource_bundles": {
+    "SIMInputView": [
+      "SIMInputView/Assets/*.png"
+    ]
+  }
+}

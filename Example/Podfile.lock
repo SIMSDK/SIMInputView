@@ -1,0 +1,16 @@
+PODS:
+  - SIMInputView (0.1.0)
+
+DEPENDENCIES:
+  - SIMInputView (from `../`)
+
+EXTERNAL SOURCES:
+  SIMInputView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SIMInputView: ff09f0aa7712024349b26ca252cfc7ecfee48f2a
+
+PODFILE CHECKSUM: d1fce3a3f2fb30ab2eec969ba8d68d8fe4495cce
+
+COCOAPODS: 1.9.1

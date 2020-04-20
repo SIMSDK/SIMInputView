@@ -1,0 +1,6 @@
+framework module Pods_SIMInputView_Tests {
+  umbrella header "Pods-SIMInputView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

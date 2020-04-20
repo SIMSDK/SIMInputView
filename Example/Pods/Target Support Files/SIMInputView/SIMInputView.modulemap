@@ -1,0 +1,6 @@
+framework module SIMInputView {
+  umbrella header "SIMInputView-umbrella.h"
+
+  export *
+  module * { export * }
+}
